@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "LinkDrop",
+  "version": "1.0.0",
+  "description": "LinkDrop browser extension",
+  "permissions": ["sidePanel"],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_title": "Open LinkDrop"
+  },
+  "side_panel": {
+    "default_path": "index.html"
+  }
+}
